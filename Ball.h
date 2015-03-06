@@ -23,7 +23,7 @@ class Ball
 {
 public:
 	Ball(SDL_Renderer*);
-	virtual ~Ball();
+	~Ball();
 
 	void update(Uint32);
 	void draw();
